@@ -1,4 +1,4 @@
-# gigisay
+# gigisay
 
 ## How to run
 
@@ -12,26 +12,26 @@ git clone https://github.com/mihcaoj/gigisay/
 ```bash
 cd gigisay
 ```
-### Build binary for your OS
-Linux/macOS:
+### Build binary for your OS
+- Linux/macOS:
 ```bash
 go build -o gigisay
 ```
-Windows:
+- Windows:
 ```bash
 go build -o gigisay.exe
 ```
 ### Run it
-Linux/macOS:
+- Linux/macOS:
 ```bash
 ./gigisay YOUR TEXT HERE
 ```
-Windows:
+- Windows:
 ```bash
 .\gigisay.exe YOUR TEXT HERE
 ```
 ## Example
-```bash
+```text
 $ ./gigisay Hello World
 
 ---------------
